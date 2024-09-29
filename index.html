@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./images/home/hokkaidomap.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/main.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/cfdc77a775.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/typeit@8.8.5/dist/index.umd.js"></script>
+    <title>welcom to hokkaido</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav container">
+        <!-- 이미지(로고) -->
+        <div class="nav__logo">
+          <img
+            class="nav__img"
+            src="./images/hokkaidologo.png"
+            alt="홋카이도 로고"
+          />
+          <a href="#" class="nav__brand">ようこそ、北海道へ！</a>
+        </div>
+        <!-- 메뉴 -->
+        <div class="nav__menu" id="nav__menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#restaurants" class="nav__link">Restaurant</a>
+            </li>
+            <li class="nav__item">
+              <a href="#cafe" class="nav__link">Cafe</a>
+            </li>
+            <li class="nav__item">
+              <a href="#camp" class="nav__link">Camp</a>
+            </li>
+            <li class="nav__item">
+              <a href="#trip" class="nav__link">Trip</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- Home -->
+      <section class="home container section" id="home">
+        <!-- Home Data -->
+        <div class="home__data">
+          <h2 id="typeit" class="home__title"></h2>
+          <a href="#contact" class="button">Contact</a>
+
+          <div class="home__social">
+            <a
+              href="https://www.instagram.com/_cham_chi"
+              target="_blank"
+              title="인스타그램 링크"
+            >
+              <i class="fa-brands fa-facebook home__social-icon"></i>
+            </a>
+            <a
+              href="https://www.instagram.com/_cham_chi"
+              target="_blank"
+              title="인스타그램 링크"
+            >
+              <i class="fa-brands fa-instagram home__social-icon"></i>
+            </a>
+            <a
+              href="https://github.com/DongwonLim"
+              target="_blank"
+              title="깃허브 링크"
+            >
+              <i class="fa-brands fa-github home__social-icon"></i>
+            </a>
+          </div>
+        </div>
+        <!-- Home Image -->
+
+        <img
+          class="home__img"
+          src="./images/home/hokkaidomap.png"
+          alt="홋카이도 지도"
+        />
+      </section>
+      <!-- About -->
+      <section class="about section bg-grey-1" id="about">
+        <h2 class="section__title">About</h2>
+        <div class="about__container container">
+          <img
+            class="about__img"
+            src="./images/about/travel.jpg"
+            alt="요것도 지도"
+          />
+
+          <div class="about__data">
+            <h3 class="about__subtitle">홋카이도에 어서오세요!</h3>
+            <p class="about__text">
+              삿포로에 거주하며 경험한 것들을 소개해드리고 있습니다.<br />
+              제가 추천하는 식당, 이자카야, 캠핑장, 카페, 여행지를 구글맵을
+              통해서 볼 수 있습니다!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 식당, 이자카야 -->
+      <section class="Restaurant section" id="restaurants">
+        <h2 class="section__title">식당, 이자카야</h2>
+
+        <div class="restaurants__container container">
+          <!-- 식당, 이자카야 데이터 -->
+          <div class="restaurants__data">
+            <h3 class="restaurants__subtitle">다양한 음식과 술들</h3>
+            <p class="restaurants__text">
+              음식과 술을 좋아하시는 홋카이도 여행자라면 가도 후회하지 않는
+              식당, 이자카야들이 준비되어 있습니다.<br />
+              그리고 여기에 할말들 더 적기
+            </p>
+          </div>
+
+          <!-- 이미지 -->
+          <a
+            href="https://maps.app.goo.gl/S9NaxLHLdTiELEvZ6"
+            target="_blank"
+            class="restaurants__link"
+          >
+            <img
+              class="restaurants__img"
+              src="./images/restaurant/restaurant2.jpg"
+              alt="식당 사진"
+            />
+          </a>
+        </div>
+      </section>
+      <!-- 카페 -->
+      <section class="cafe section" id="cafe">
+        <h2 class="section__title">카페</h2>
+        <div class="cafe__container container">
+          <a
+            href="https://maps.app.goo.gl/4TxkR2F5gxZh7Wcd8"
+            target="_blank"
+            class="cafe__link"
+          >
+            <img class="cafe__img" src="./images/cafe/cafe2.jpg" alt="" />
+          </a>
+          <div class="cafe__data">
+            <h3 class="cafe__subtitle">홋카이도 카페</h3>
+            <p class="cafe__text">
+              카페를 좋아하시는 분들은 주목!<br />
+              홋카이도에서 추천드리는 숨겨진 카페들이 여기에 있습니다!
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- 캠핑장 -->
+      <section class="camp section" id="camp">
+        <h2 class="section__title">캠핑장</h2>
+        <div class="camp__container container">
+          <a
+            href="https://maps.app.goo.gl/XTu7N7cTXE1PcMfm8"
+            target="_blank"
+            class="camp__link"
+          >
+            <img
+              class="camp__img"
+              src="./images/camp/camp.jpg"
+              alt="캠핑장 사진"
+            />
+          </a>
+
+          <div class="camp__data">
+            <h3 class="camp__subtitle">홋카이도 캠핑장</h3>
+            <p class="camp__text">
+              홋카이도의 토지면적은 한국과 비슷하지만 인구는 10분의 1밖에 되지
+              않습니다.<br />
+              드넓은 자연에서 즐기는 홋카이도 캠프의 매력에 빠져보세요!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 여행지 -->
+      <section class="trip section" id="trip">
+        <h2 class="section__title">여행지</h2>
+        <div class="trip__container container">
+          <a
+            href="https://maps.app.goo.gl/2Pe2jBhDHk7euapv7"
+            target="_blank"
+            class="trip__link"
+          >
+            <img
+              class="trip__img"
+              src="./images/trip/trip.jpg"
+              alt="여행지 사진"
+            />
+          </a>
+
+          <div class="trip__data">
+            <h3 class="trip__subtitle">홋카이도 여행지</h3>
+            <p class="trip__text">
+              갈곳이 너무 많아 어디를 가야할지 모르겠다면 클릭!
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Contact -->
+      <section class="contact section" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <div class="contact__container container">
+          <form id="contactForm" class="contact__form">
+            <input
+              class="contact__input"
+              type="text"
+              name="name"
+              placeholder="이름"
+              required
+            />
+            <input
+              class="contact__input"
+              type="text"
+              name="subject"
+              placeholder="제목"
+              required
+            />
+            <textarea
+              class="contact__input"
+              name="message"
+              id="massage"
+              cols="30"
+              rows="10"
+              placeholder="내용"
+              required
+            ></textarea>
+            <button class="contact__button button">보내기</button>
+          </form>
+        </div>
+      </section>
+      <button class="floationg-button" id="floationg-button">
+        <i class="fa-solid fa-arrow-up floationg-button-icon"></i>
+      </button>
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+      <p class="footer__title">ようこそ、北海道へ！</p>
+      <div class="footer__social">
+        <a
+          href="https://www.instagram.com/_cham_chi"
+          target="_blank"
+          title="인스타그램 링크"
+        >
+          <i class="fa-brands fa-facebook footer__icon"></i>
+        </a>
+        <a
+          href="https://www.instagram.com/_cham_chi"
+          target="_blank"
+          title="인스타그램 링크"
+        >
+          <i class="fa-brands fa-instagram footer__icon"></i>
+        </a>
+        <a
+          href="https://github.com/DongwonLim"
+          target="_blank"
+          title="깃허브 링크"
+        >
+          <i class="fa-brands fa-github footer__icon"></i>
+        </a>
+      </div>
+      <p class="footer__copy">
+        Copyright &copy; 2024 임동원 All rights reserved.
+      </p>
+    </footer>
+  </body>
+</html>
